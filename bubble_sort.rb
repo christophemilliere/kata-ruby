@@ -8,13 +8,10 @@ def bubble_sort(array)
         swapped = true
       end
     end
-
     break if not swapped
   end
-
  puts array.inspect
 end
 
 a = %w(d a b z w)
-
 bubble_sort(a)
